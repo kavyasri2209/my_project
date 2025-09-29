@@ -1,10 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Intro from './components/Intro';
+import About from './components/About';
+import Skills from './components/Skills';
+import Grades from './components/Grades';
+import Projects from './components/Projects';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Home />
+      <Intro />
+      <About />
+      <Skills />
+      <Grades />
+      <Projects />
+      <Form />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,8 +34,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Footer />
     </div>
+    
   );
 }
 
