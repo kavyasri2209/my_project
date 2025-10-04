@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Grades from './components/Grades';
 import Projects from './components/Projects';
 import Form from './components/Form';
+import Cards from './components/Cards';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Grades />
       <Projects />
       <Form />
+      <Cards />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
