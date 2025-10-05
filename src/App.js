@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
 
-import Home from './components/Home';
 import Intro from './components/Intro';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -29,7 +28,7 @@ function App() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
-                <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
+                
                 <li className="nav-item"><a className="nav-link" href="/intro">Intro</a></li>
                 <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
                 <li className="nav-item"><a className="nav-link" href="/skills">Skills</a></li>
@@ -44,7 +43,6 @@ function App() {
 
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/intro" element={<Intro />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
