@@ -49,3 +49,6 @@
 }
 
 
+body, html, .App {
+  overflow-x: hidden;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-// optional, if your Home content is split
+
 
 function Home() {
   return (
